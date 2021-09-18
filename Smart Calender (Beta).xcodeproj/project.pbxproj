@@ -7,21 +7,80 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27DD1F5DD26991B04C19C0AC /* Pods_Smart_Calender__Beta_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB87E86FCAD8B967AC69A1BF /* Pods_Smart_Calender__Beta_.framework */; };
+		400668711E0C44B200C4BC8C /* ScheduledTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400668701E0C44B200C4BC8C /* ScheduledTableViewController.swift */; };
+		400668731E0C4D6900C4BC8C /* ScheduledTasksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400668721E0C4D6900C4BC8C /* ScheduledTasksTableViewCell.swift */; };
+		400668751E0C5CDF00C4BC8C /* ScheduledTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400668741E0C5CDF00C4BC8C /* ScheduledTasks.swift */; };
 		40457F181E078722000DAA5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40457F171E078722000DAA5B /* AppDelegate.swift */; };
-		40457F1A1E078722000DAA5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40457F191E078722000DAA5B /* ViewController.swift */; };
 		40457F1D1E078722000DAA5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40457F1B1E078722000DAA5B /* Main.storyboard */; };
 		40457F1F1E078722000DAA5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40457F1E1E078722000DAA5B /* Assets.xcassets */; };
 		40457F221E078722000DAA5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40457F201E078722000DAA5B /* LaunchScreen.storyboard */; };
+		404808381E0ED82B000E6878 /* String+NORMALIZER.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404808371E0ED82B000E6878 /* String+NORMALIZER.swift */; };
+		4048083A1E0EDB35000E6878 /* Int+NORMALIZER.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404808391E0EDB35000E6878 /* Int+NORMALIZER.swift */; };
+		404E97111E11739500A80E65 /* meal1.png in Resources */ = {isa = PBXBuildFile; fileRef = 404E97101E11739500A80E65 /* meal1.png */; };
+		407A5BB31E12154A00F67253 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 407A5BB21E12154A00F67253 /* SWRevealViewController.m */; };
+		40B0D4961E078CD600A76124 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B0D4951E078CD600A76124 /* TaskViewController.swift */; };
+		40BAC5001E12AFAC008D9518 /* SmartSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BAC4FF1E12AFAC008D9518 /* SmartSchedule.swift */; };
+		40C2F79F1E07980100C65222 /* TimeControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C2F79E1E07980100C65222 /* TimeControl.swift */; };
+		40DD0D4E1E08D0DC00FF85D8 /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DD0D4D1E08D0DC00FF85D8 /* Tasks.swift */; };
+		40DD0D501E08D9BA00FF85D8 /* TasksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DD0D4F1E08D9BA00FF85D8 /* TasksTableViewCell.swift */; };
+		40DD0D521E08DF0A00FF85D8 /* TaskTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DD0D511E08DF0A00FF85D8 /* TaskTableViewController.swift */; };
+		40E0FFA61E1036D700972335 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E0FFA51E1036D700972335 /* GoogleMobileAds.framework */; };
+		40E0FFA81E10375800972335 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E0FFA71E10375800972335 /* AdSupport.framework */; };
+		40E0FFAA1E10376200972335 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E0FFA91E10376200972335 /* AudioToolbox.framework */; };
+		40E0FFAC1E10376A00972335 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E0FFAB1E10376A00972335 /* AVFoundation.framework */; };
+		40E0FFB01E10378500972335 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E0FFAD1E10378500972335 /* CoreGraphics.framework */; };
+		40E0FFB11E10378500972335 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E0FFAE1E10378500972335 /* CoreMedia.framework */; };
+		40E0FFB21E10378500972335 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E0FFAF1E10378500972335 /* CoreTelephony.framework */; };
+		40E0FFB51E10379900972335 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E0FFB31E10379900972335 /* EventKit.framework */; };
+		40E0FFB61E10379900972335 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E0FFB41E10379900972335 /* EventKitUI.framework */; };
+		40E0FFB81E1037A600972335 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E0FFB71E1037A600972335 /* MediaPlayer.framework */; };
+		40E0FFBA1E1037AC00972335 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E0FFB91E1037AC00972335 /* MessageUI.framework */; };
+		40E0FFBE1E1037C000972335 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E0FFBD1E1037C000972335 /* SystemConfiguration.framework */; };
+		40ED9A1E1E0D9FE9008DC0A3 /* String+INDEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ED9A1D1E0D9FE9008DC0A3 /* String+INDEX.swift */; };
+		40F20DD51E0A1EB20050A840 /* UIColor+RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F20DD41E0A1EB20050A840 /* UIColor+RGB.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		400668701E0C44B200C4BC8C /* ScheduledTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduledTableViewController.swift; sourceTree = "<group>"; };
+		400668721E0C4D6900C4BC8C /* ScheduledTasksTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduledTasksTableViewCell.swift; sourceTree = "<group>"; };
+		400668741E0C5CDF00C4BC8C /* ScheduledTasks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduledTasks.swift; sourceTree = "<group>"; };
 		40457F141E078722000DAA5B /* Smart Calender (Beta).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Calender (Beta).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40457F171E078722000DAA5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		40457F191E078722000DAA5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		40457F1C1E078722000DAA5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40457F1E1E078722000DAA5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40457F211E078722000DAA5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40457F231E078722000DAA5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		404808371E0ED82B000E6878 /* String+NORMALIZER.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+NORMALIZER.swift"; sourceTree = "<group>"; };
+		404808391E0EDB35000E6878 /* Int+NORMALIZER.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+NORMALIZER.swift"; sourceTree = "<group>"; };
+		404E97101E11739500A80E65 /* meal1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = meal1.png; path = "Assets.xcassets/Sample Images/task1.imageset/meal1.png"; sourceTree = "<group>"; };
+		407A5BB01E12154900F67253 /* Smart Calender (Beta)-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smart Calender (Beta)-Bridging-Header.h"; sourceTree = "<group>"; };
+		407A5BB11E12154A00F67253 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		407A5BB21E12154A00F67253 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		40B0D4951E078CD600A76124 /* TaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		40BAC4FF1E12AFAC008D9518 /* SmartSchedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartSchedule.swift; sourceTree = "<group>"; };
+		40C2F79E1E07980100C65222 /* TimeControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeControl.swift; sourceTree = "<group>"; };
+		40DD0D4D1E08D0DC00FF85D8 /* Tasks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
+		40DD0D4F1E08D9BA00FF85D8 /* TasksTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksTableViewCell.swift; sourceTree = "<group>"; };
+		40DD0D511E08DF0A00FF85D8 /* TaskTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskTableViewController.swift; sourceTree = "<group>"; };
+		40E0FFA51E1036D700972335 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "Smart Calender (Beta)/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		40E0FFA71E10375800972335 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		40E0FFA91E10376200972335 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		40E0FFAB1E10376A00972335 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		40E0FFAD1E10378500972335 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		40E0FFAE1E10378500972335 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		40E0FFAF1E10378500972335 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		40E0FFB31E10379900972335 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		40E0FFB41E10379900972335 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		40E0FFB71E1037A600972335 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		40E0FFB91E1037AC00972335 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		40E0FFBB1E1037B700972335 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		40E0FFBD1E1037C000972335 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		40ED9A1D1E0D9FE9008DC0A3 /* String+INDEX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+INDEX.swift"; sourceTree = "<group>"; };
+		40F20DD41E0A1EB20050A840 /* UIColor+RGB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+RGB.swift"; sourceTree = "<group>"; };
+		A08D7B043BCC9F113469B369 /* Pods-Smart Calender (Beta).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart Calender (Beta).release.xcconfig"; path = "Pods/Target Support Files/Pods-Smart Calender (Beta)/Pods-Smart Calender (Beta).release.xcconfig"; sourceTree = "<group>"; };
+		B6A0DB17E61BE836A6CC066D /* Pods-Smart Calender (Beta).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart Calender (Beta).debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smart Calender (Beta)/Pods-Smart Calender (Beta).debug.xcconfig"; sourceTree = "<group>"; };
+		DB87E86FCAD8B967AC69A1BF /* Pods_Smart_Calender__Beta_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smart_Calender__Beta_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +88,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40E0FFBE1E1037C000972335 /* SystemConfiguration.framework in Frameworks */,
+				40E0FFBA1E1037AC00972335 /* MessageUI.framework in Frameworks */,
+				40E0FFB81E1037A600972335 /* MediaPlayer.framework in Frameworks */,
+				40E0FFB51E10379900972335 /* EventKit.framework in Frameworks */,
+				40E0FFB61E10379900972335 /* EventKitUI.framework in Frameworks */,
+				40E0FFB01E10378500972335 /* CoreGraphics.framework in Frameworks */,
+				40E0FFB11E10378500972335 /* CoreMedia.framework in Frameworks */,
+				40E0FFB21E10378500972335 /* CoreTelephony.framework in Frameworks */,
+				40E0FFAC1E10376A00972335 /* AVFoundation.framework in Frameworks */,
+				40E0FFAA1E10376200972335 /* AudioToolbox.framework in Frameworks */,
+				40E0FFA81E10375800972335 /* AdSupport.framework in Frameworks */,
+				40E0FFA61E1036D700972335 /* GoogleMobileAds.framework in Frameworks */,
+				27DD1F5DD26991B04C19C0AC /* Pods_Smart_Calender__Beta_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +112,8 @@
 			children = (
 				40457F161E078722000DAA5B /* Smart Calender (Beta) */,
 				40457F151E078722000DAA5B /* Products */,
+				763F5B3A8A247477E6E60079 /* Frameworks */,
+				D75991E7B56C2523E69FA86A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +128,76 @@
 		40457F161E078722000DAA5B /* Smart Calender (Beta) */ = {
 			isa = PBXGroup;
 			children = (
+				407A5BAF1E12153000F67253 /* SWRevealViewController */,
+				40E0FFA41E10369A00972335 /* Admob */,
 				40457F171E078722000DAA5B /* AppDelegate.swift */,
-				40457F191E078722000DAA5B /* ViewController.swift */,
+				40BAC4FF1E12AFAC008D9518 /* SmartSchedule.swift */,
+				40F20DD41E0A1EB20050A840 /* UIColor+RGB.swift */,
+				40ED9A1D1E0D9FE9008DC0A3 /* String+INDEX.swift */,
+				404808371E0ED82B000E6878 /* String+NORMALIZER.swift */,
+				404808391E0EDB35000E6878 /* Int+NORMALIZER.swift */,
 				40457F1B1E078722000DAA5B /* Main.storyboard */,
+				400668701E0C44B200C4BC8C /* ScheduledTableViewController.swift */,
+				400668721E0C4D6900C4BC8C /* ScheduledTasksTableViewCell.swift */,
+				40B0D4951E078CD600A76124 /* TaskViewController.swift */,
+				40DD0D511E08DF0A00FF85D8 /* TaskTableViewController.swift */,
+				40DD0D4F1E08D9BA00FF85D8 /* TasksTableViewCell.swift */,
+				40DD0D4D1E08D0DC00FF85D8 /* Tasks.swift */,
+				400668741E0C5CDF00C4BC8C /* ScheduledTasks.swift */,
+				40C2F79E1E07980100C65222 /* TimeControl.swift */,
 				40457F1E1E078722000DAA5B /* Assets.xcassets */,
 				40457F201E078722000DAA5B /* LaunchScreen.storyboard */,
 				40457F231E078722000DAA5B /* Info.plist */,
 			);
 			path = "Smart Calender (Beta)";
+			sourceTree = "<group>";
+		};
+		407A5BAF1E12153000F67253 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				407A5BB11E12154A00F67253 /* SWRevealViewController.h */,
+				407A5BB21E12154A00F67253 /* SWRevealViewController.m */,
+				407A5BB01E12154900F67253 /* Smart Calender (Beta)-Bridging-Header.h */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		40E0FFA41E10369A00972335 /* Admob */ = {
+			isa = PBXGroup;
+			children = (
+				404E97101E11739500A80E65 /* meal1.png */,
+			);
+			name = Admob;
+			sourceTree = "<group>";
+		};
+		763F5B3A8A247477E6E60079 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40E0FFA51E1036D700972335 /* GoogleMobileAds.framework */,
+				40E0FFBD1E1037C000972335 /* SystemConfiguration.framework */,
+				40E0FFBB1E1037B700972335 /* StoreKit.framework */,
+				40E0FFB91E1037AC00972335 /* MessageUI.framework */,
+				40E0FFB71E1037A600972335 /* MediaPlayer.framework */,
+				40E0FFB31E10379900972335 /* EventKit.framework */,
+				40E0FFB41E10379900972335 /* EventKitUI.framework */,
+				40E0FFAD1E10378500972335 /* CoreGraphics.framework */,
+				40E0FFAE1E10378500972335 /* CoreMedia.framework */,
+				40E0FFAF1E10378500972335 /* CoreTelephony.framework */,
+				40E0FFAB1E10376A00972335 /* AVFoundation.framework */,
+				40E0FFA91E10376200972335 /* AudioToolbox.framework */,
+				40E0FFA71E10375800972335 /* AdSupport.framework */,
+				DB87E86FCAD8B967AC69A1BF /* Pods_Smart_Calender__Beta_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D75991E7B56C2523E69FA86A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6A0DB17E61BE836A6CC066D /* Pods-Smart Calender (Beta).debug.xcconfig */,
+				A08D7B043BCC9F113469B369 /* Pods-Smart Calender (Beta).release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 40457F261E078722000DAA5B /* Build configuration list for PBXNativeTarget "Smart Calender (Beta)" */;
 			buildPhases = (
+				3243E865C1597158506FD333 /* [CP] Check Pods Manifest.lock */,
 				40457F101E078722000DAA5B /* Sources */,
 				40457F111E078722000DAA5B /* Frameworks */,
 				40457F121E078722000DAA5B /* Resources */,
+				DF42ABFB1B38E99A137C5F8A /* [CP] Embed Pods Frameworks */,
+				A268D56DE6BA26DD316C66A9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +236,7 @@
 					40457F131E078722000DAA5B = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = Z6SZFEQ64K;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,6 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				404E97111E11739500A80E65 /* meal1.png in Resources */,
 				40457F221E078722000DAA5B /* LaunchScreen.storyboard in Resources */,
 				40457F1F1E078722000DAA5B /* Assets.xcassets in Resources */,
 				40457F1D1E078722000DAA5B /* Main.storyboard in Resources */,
@@ -132,13 +273,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3243E865C1597158506FD333 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A268D56DE6BA26DD316C66A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Smart Calender (Beta)/Pods-Smart Calender (Beta)-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF42ABFB1B38E99A137C5F8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Smart Calender (Beta)/Pods-Smart Calender (Beta)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		40457F101E078722000DAA5B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40457F1A1E078722000DAA5B /* ViewController.swift in Sources */,
+				40DD0D521E08DF0A00FF85D8 /* TaskTableViewController.swift in Sources */,
+				400668711E0C44B200C4BC8C /* ScheduledTableViewController.swift in Sources */,
+				40F20DD51E0A1EB20050A840 /* UIColor+RGB.swift in Sources */,
+				404808381E0ED82B000E6878 /* String+NORMALIZER.swift in Sources */,
+				40DD0D501E08D9BA00FF85D8 /* TasksTableViewCell.swift in Sources */,
+				40C2F79F1E07980100C65222 /* TimeControl.swift in Sources */,
 				40457F181E078722000DAA5B /* AppDelegate.swift in Sources */,
+				407A5BB31E12154A00F67253 /* SWRevealViewController.m in Sources */,
+				40DD0D4E1E08D0DC00FF85D8 /* Tasks.swift in Sources */,
+				40BAC5001E12AFAC008D9518 /* SmartSchedule.swift in Sources */,
+				400668731E0C4D6900C4BC8C /* ScheduledTasksTableViewCell.swift in Sources */,
+				40ED9A1E1E0D9FE9008DC0A3 /* String+INDEX.swift in Sources */,
+				400668751E0C5CDF00C4BC8C /* ScheduledTasks.swift in Sources */,
+				40B0D4961E078CD600A76124 /* TaskViewController.swift in Sources */,
+				4048083A1E0EDB35000E6878 /* Int+NORMALIZER.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +406,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -247,7 +449,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -257,26 +459,47 @@
 		};
 		40457F271E078722000DAA5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6A0DB17E61BE836A6CC066D /* Pods-Smart Calender (Beta).debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = Z6SZFEQ64K;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Smart\\ Calender\\ (Beta)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Smart Calender (Beta)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.crzQag.Smart-Calender--Beta-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Smart Calender (Beta)/Smart Calender (Beta)-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		40457F281E078722000DAA5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A08D7B043BCC9F113469B369 /* Pods-Smart Calender (Beta).release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = Z6SZFEQ64K;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Smart\\ Calender\\ (Beta)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Smart Calender (Beta)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.crzQag.Smart-Calender--Beta-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Smart Calender (Beta)/Smart Calender (Beta)-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -300,6 +523,7 @@
 				40457F281E078722000DAA5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
